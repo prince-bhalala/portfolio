@@ -30,7 +30,7 @@ function Herosection() {
       <div className="z-10 px-3 text-center mt-10 sm:mt-20 md:mt-32 lg:mt-9">
         <h1 className="text-3xl mt-15 sm:text-5xl md:text-6xl font-bold leading-tight flex justify-center items-center gap-2 flex-wrap">
           <span className="text-3xl sm:text-5xl md:text-6xl">
-            Hi, I'm PRINCE BHALALA
+            Hi, I&apos;m PRINCE BHALALA
           </span>
         </h1>
         

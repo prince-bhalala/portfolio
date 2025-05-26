@@ -10,7 +10,7 @@ export default function ContactSection() {
       Crafting Code with Purpose.<br /> Ready to Collaborate?
     </h2>
     <p className="mt-5 text-gray-400 text-base md:text-lg max-w-xl mx-auto">
-      I'm currently open to internships, freelance projects & innovative tech roles. Let's create something exceptional together.
+      I&apos;m currently open to internships, freelance projects & innovative tech roles. Let&apos;s create something exceptional together.
     </p>
     <div className="mt-8">
       <CollaborateModal />

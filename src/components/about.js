@@ -2,6 +2,7 @@
 import { BackgroundBeams } from './ui/background-beams';
 import {SiGithub , SiLinkedin,} from 'react-icons/si';
 import {MdEmail } from 'react-icons/md';
+import Image from 'next/image';
 
 
 export default function AboutSection() {
@@ -23,7 +24,7 @@ export default function AboutSection() {
         
         <div className="flex flex-col items-center md:items-start md:w-1/3 space-y-6">
           
-          <img
+          <Image  
             src="/prince2.jpg"
             alt="Your Name"
             className="rounded-2xl w-70 h-70 mt-10  object-cover "
@@ -40,16 +41,16 @@ export default function AboutSection() {
         
         <div className="md:w-2/3 bg-black rounded-2xl px-8 py-10 shadow-lg ">
           <p className="text-lg text-gray-300 leading-relaxed">
-            Hello! I'm a second-year B.E. Computer Engineering student and a growing Full Stack Developer with strong hands-on
-            experience in the MERN stack. I've built complete backend projects like <span className="text-cyan-400 font-medium">VideoTuber</span>, which integrates technologies
+            Hello! I&apos;m a second-year B.E. Computer Engineering student and a growing Full Stack Developer with strong hands-on
+            experience in the MERN stack. I&apos;ve built complete backend projects like <span className="text-cyan-400 font-medium">VideoTuber</span>, which integrates technologies
             like MongoDB, Express.js, Node.js, and Cloudinary for efficient media handling.
             <br /><br />
-            Currently, I'm deeply focused on mastering <span className="text-sky-400 font-medium">Next.js</span> and its ecosystem, including Tailwind CSS, to build
-            modern and dynamic web applications. I'm also exploring the world of <span className="text-yellow-400 font-medium">AI</span> and <span className="text-yellow-400 font-medium">Machine Learning</span>,
+            Currently, I&apos;m deeply focused on mastering <span className="text-sky-400 font-medium">Next.js</span> and its ecosystem, including Tailwind CSS, to build
+            modern and dynamic web applications. I&apos;m also exploring the world of <span className="text-yellow-400 font-medium">AI</span> and <span className="text-yellow-400 font-medium">Machine Learning</span>,
             with a keen interest in how these technologies can revolutionize industries.
             <br /><br />
-            I'm passionate about creating innovative solutions that make a difference.
-            <span className="text-cyan-300 font-semibold"> Let's connect</span> and explore the exciting possibilities of technology together!
+            I&apos;m passionate about creating innovative solutions that make a difference.
+            <span className="text-cyan-300 font-semibold"> Let&apos;s connect</span> and explore the exciting possibilities of technology together!
           </p>
           <div className="flex gap-5 mt-10">
       <a href="https://github.com/prince-bhalala">

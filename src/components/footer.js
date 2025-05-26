@@ -28,7 +28,7 @@ export default function Footer() {
 
         <div className="flex flex-col items-center md:items-end text-center md:text-right space-y-4">
           <h3 className="text-lg font-semibold">
-            Don’t hesitate to get in touch for any <br /> inquiries or to collaborate.
+            Don&apos;t hesitate to get in touch for any <br /> inquiries or to collaborate.
           </h3>
           <div className="flex space-x-4">
             <a

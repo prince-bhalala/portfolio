@@ -87,7 +87,7 @@ function Skills() {
           <h2 className="text-4xl font-bold tracking-wide text-white drop-shadow-lg">
             Project Showcase
           </h2>
-          <p className="text-gray-400 mt-2">A few things I've built recently</p>
+          <p className="text-gray-400 mt-2">A few things I&apos;ve built recently</p>
         </div>
 
         <HoverEffect
