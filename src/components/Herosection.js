@@ -11,7 +11,7 @@ function Herosection() {
   const [showDownload, setShowDownload] = useState(false);
 
   const handleViewResume = () => {
-    window.open("/T2_UNIT - 4_5_6 _PQ_QB_VHA.pdf", "_blank");
+    window.open("/Blank_Resume.pdf", "_blank");
     setShowDownload(true); 
   };
 
@@ -82,7 +82,7 @@ function Herosection() {
 
   {showDownload && (
     <a
-      href="/T2_UNIT - 4_5_6 _PQ_QB_VHA.pdf"
+      href="/Blank_Resume.pdf"
       download="PRINCE_BHALALA_Resume.pdf"
     >
       <HoverBorderGradient
