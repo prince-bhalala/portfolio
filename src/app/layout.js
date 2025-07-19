@@ -17,10 +17,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="dark">
-      <body className={inter.className}>
-        <div className="relative w-full flex items-center justify-center bg-black text-white" >
-           
-        </div>
+      <body className={`${inter.className} bg-black text-white`}>
         {children}
         <Toaster richColors position="top-center" />
       </body>
