@@ -22,7 +22,7 @@ export default function Footer() {
             <li><a href="#about" className="hover:text-white transition">About</a></li>
             <li><a href="#projects" className="hover:text-white transition">Projects</a></li>
             <li><a href="#contect" className="hover:text-white transition">Contact</a></li>
-            <li><a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">Resume</a></li>
+            <li><a href="/Blank_Resume.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">Resume</a></li>
           </ul>
         </div>
 
@@ -32,7 +32,7 @@ export default function Footer() {
           </h3>
           <div className="flex space-x-4">
             <a
-              href="mailto:your-email@example.com"
+              href="mailto:princebhalala24@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full flex items-center justify-center
