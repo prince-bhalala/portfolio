@@ -8,6 +8,8 @@ import {
   ModalTrigger,
 } from "./ui/animated-modal.js";
 import { useState } from "react";
+import { toast } from 'sonner'
+
 
 
 export default function CollaborateModal() {
@@ -25,12 +27,31 @@ export default function CollaborateModal() {
     }));
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // TODO: handle form submit logic (send email, API call, etc)
-    alert(`Thank you, ${formData.name}! Your message has been sent.`);
-    setFormData({ name: "", email: "", message: "" }); // reset form
-  };
+  const handleSubmit = async (e) => {
+  e.preventDefault();
+
+  try {
+    const response = await fetch("/api/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+    });
+
+    if (response.ok) {
+      toast(`Thank you, ${formData.name}! Your message has been sent.`);
+      setFormData({ name: "", email: "", message: "" });
+    } else {
+      const error = await response.json();
+      toast(`Error: ${error.error || 'Something went wrong.'}`);
+    }
+  } catch (err) {
+    console.error("Error submitting form:", err);
+    toast("An error occurred. Please try again later.");
+  }
+};
+
 
   return (
     <div className="mt-13    flex items-center justify-center">

@@ -28,6 +28,8 @@ export default function AboutSection() {
             src="/prince2.jpg"
             alt="Your Name"
             className="rounded-2xl w-70 h-70 mt-10  object-cover "
+            width={300}       // ✅ Add width
+            height={300} 
           />
           <div className="text-center md:text-left">
             <h3 className="text-3xl text-center font-semibold  mb-2">Lj University</h3>

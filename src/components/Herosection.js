@@ -47,7 +47,7 @@ function Herosection() {
 
         
       </div>
-   <div className="mt-10 flex flex-col items-center gap-4 mb-50.5">
+   {/* <div className="mt-10 flex flex-col items-center gap-4 mb-50.5">
        {!showDownload && <button onClick={handleViewResume}>
           <HoverBorderGradient
             className="text-lg sm:text-xl font-semibold text-white rounded-full px-8 py-3 tracking-wide transition-all duration-300 ease-in-out hover:shadow-[0_0_20px_#00FFFF50] hover:text-cyan-300"
@@ -67,8 +67,35 @@ function Herosection() {
             </HoverBorderGradient>
           </a>
         )}
-      </div>
+      </div>*/}
+      <div className="mt-10 flex flex-col items-center gap-4 mb-50.5">
+  {!showDownload && (
+    <div onClick={handleViewResume}>
+      <HoverBorderGradient
+        className="text-lg sm:text-xl font-semibold text-white rounded-full px-8 py-3 tracking-wide transition-all duration-300 ease-in-out hover:shadow-[0_0_20px_#00FFFF50] hover:text-cyan-300"
+        containerClassName="bg-black/80 backdrop-blur-md border border-cyan-500/30 hover:border-cyan-400/50 shadow-md shadow-cyan-900/30"
+      >
+        View Resume
+      </HoverBorderGradient>
     </div>
+  )}
+
+  {showDownload && (
+    <a
+      href="/T2_UNIT - 4_5_6 _PQ_QB_VHA.pdf"
+      download="PRINCE_BHALALA_Resume.pdf"
+    >
+      <HoverBorderGradient
+        className="text-lg sm:text-xl font-semibold text-white rounded-full px-8 py-3 tracking-wide transition-all duration-300 ease-in-out hover:shadow-[0_0_20px_#00FFFF50] hover:text-cyan-300"
+        containerClassName="bg-black/80 backdrop-blur-md border border-cyan-500/30 hover:border-cyan-400/50 shadow-md shadow-cyan-900/30"
+      >
+        Download Resume
+      </HoverBorderGradient>
+    </a>
+  )}
+</div>
+
+    </div> 
   );
 }
 
