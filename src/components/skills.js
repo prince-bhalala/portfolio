@@ -47,41 +47,29 @@ function Skills() {
 
  const projects = [
   {
-    title: "StayFinder",
+    title: "Anonymous Message Sharing Web",
     description:
-      "A web app for students to find hostel/PG stays with search, filters, and posting features using Next.js and MongoDB.",
-    link: '#'
+      "MystryMessage is a secure and anonymous message-sharing platform built with a focus on privacy and simplicity. Users can create a unique link and receive anonymous feedback or messages from others.",
+    link: 'https://github.com/prince-bhalala/mystrymessage'
   },
   {
-    title: "Event Booking System",
+    title: "Coffee Shop Web Clone",
     description:
-      "A CLI-based ticket booking system built using Python and MySQL with matplotlib for analytics.",
-    link: "#",
-  },
-  {
-    title: "Foot Cap – Shoe Store",
-    description:
-      "An interactive eCommerce frontend built with HTML, Bootstrap, and JavaScript featuring cart, filter, and catalog.",
-    link: "#",
+      " A responsive clone of a coffee shop website, likely for practicing frontend skills",
+    link: "https://github.com/prince-bhalala/Coffe-Shop-web-clone",
   },
   {
     title: "VideoTuber",
     description:
-      "A full-stack video sharing platform built with React, Node.js, MongoDB, and Cloudinary for media uploads.",
-    link: "#",
+      "This is the backend for VideoTuber, a YouTube-style video-sharing platform built with Node.js and Express. It handles all the core features required for a content-sharing application",
+    link: "https://github.com/prince-bhalala/MyBackend",
   },
   {
     title: "Portfolio Website",
     description:
       "A personal portfolio built using Next.js and Tailwind CSS to showcase projects and skills.",
-    link: "#",
-  },
-  {
-    title: "Blog CMS",
-    description:
-      "A simple content management system with user authentication, post creation, and editing built in Django.",
-    link: "#"
-  },
+    link: "https://github.com/prince-bhalala/portfolio",
+  }
 ];
 
 
