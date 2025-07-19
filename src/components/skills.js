@@ -7,7 +7,6 @@ import {
   FaReact,
   FaNodeJs,
   FaPython,
-  FaGitAlt
 } from "react-icons/fa";
 import {
   SiTailwindcss,
@@ -18,7 +17,6 @@ import {
   SiScikitlearn,
   SiVercel,
   SiPostman,
-  SiBootstrap,
   SiGithub,
   SiExpress,
   SiDjango
