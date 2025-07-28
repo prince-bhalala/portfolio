@@ -25,7 +25,7 @@ export default function AboutSection() {
         <div className="flex flex-col items-center md:items-start md:w-1/3 space-y-6">
           
           <Image  
-            src="/prince2.jpg"
+            src="/my_pic.jpg"
             alt="Your Name"
             className="rounded-2xl w-70 h-70 mt-10  object-cover "
             width={300}       // ✅ Add width
@@ -42,18 +42,26 @@ export default function AboutSection() {
 
         
         <div className="md:w-2/3 bg-black rounded-2xl px-8 py-10 shadow-lg ">
-          <p className="text-lg text-gray-300 leading-relaxed">
-            Hello! I&apos;m a second-year B.E. Computer Engineering student and a growing Full Stack Developer with strong hands-on
-            experience in the MERN stack. I&apos;ve built complete backend projects like <span className="text-cyan-400 font-medium">VideoTuber</span>, which integrates technologies
-            like MongoDB, Express.js, Node.js, and Cloudinary for efficient media handling.
-            <br /><br />
-            Currently, I&apos;m deeply focused on mastering <span className="text-sky-400 font-medium">Next.js</span> and its ecosystem, including Tailwind CSS, to build
-            modern and dynamic web applications. I&apos;m also exploring the world of <span className="text-yellow-400 font-medium">AI</span> and <span className="text-yellow-400 font-medium">Machine Learning</span>,
-            with a keen interest in how these technologies can revolutionize industries.
-            <br /><br />
-            I&apos;m passionate about creating innovative solutions that make a difference.
-            <span className="text-cyan-300 font-semibold"> Let&apos;s connect</span> and explore the exciting possibilities of technology together!
-          </p>
+          <div className="text-lg text-gray-300 leading-relaxed max-w-3xl mx-auto text-left px-4">
+  <p className="mb-6">
+    Hello! I&apos;m a second-year B.E. Computer Engineering student and a growing Full Stack Developer with strong hands-on
+    experience in the MERN stack. I&apos;ve built complete backend projects like
+    <span className="text-cyan-400 font-medium"> Anonymys Message</span>, which integrates technologies
+    like MongoDB, Next.js, Node.js and React.js .
+  </p>
+
+  <p className="mb-6">
+    Currently, I&apos;m deeply focused on mastering <span className="text-sky-400 font-medium">Next.js</span> and its ecosystem, including Tailwind CSS, to build
+    modern and dynamic web applications. I&apos;m also exploring the world of <span className="text-yellow-400 font-medium">Blockchain development</span>,
+    with a keen interest in how these technologies can revolutionize industries.
+  </p>
+
+  <p>
+    I&apos;m passionate about creating innovative solutions that make a difference.
+    <span className="text-cyan-300 font-semibold"> Let&apos;s connect</span> and explore the exciting possibilities of technology together!
+  </p>
+</div>
+
           <div className="flex gap-5 mt-10">
       <a href="https://github.com/prince-bhalala">
         <SiGithub className="text-gray-300" size={30} />

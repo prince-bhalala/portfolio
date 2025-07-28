@@ -9,8 +9,8 @@ export const metadata = {
   title: "Prince Bhalala",
   description: "This is my portfolio website",
   icons: {
-    icon: "/favicon_neon.ico",
-    shortcut: "/favicon_neon.ico",
+    icon: "/favicon_neon2.ico",
+    shortcut: "/favicon_neon2.ico",
   },
 };
 
